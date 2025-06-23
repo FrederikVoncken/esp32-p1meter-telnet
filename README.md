@@ -12,12 +12,10 @@ The current version is transmission via Telnet only, a future version will also 
 
 A DSMR (Dutch Smart Meter Requirements) message from a Smartmeter P1 connection is read via an UART, checked and then made available to be send via Telnet (23) for for example Home Assistant or Domoticz DSMR reader.
 
-
+![P1 Smartmeter Interface](P1SmartmeterInterface.png)
 
 DSMR 5.0.2 standard
 * https://www.netbeheernederland.nl/publicatie/dsmr-502-p1-companion-standard
-![P1 Smartmeter Interface](P1SmartmeterInterface.png)
-
 This implementation for a esp32 idf environment, tested to be working for Home Assistant DSMR reader.
 * https://www.home-assistant.io/integrations/dsmr_reader/
 
